@@ -32,13 +32,18 @@ namespace BasicPrograms
             QuotientRemainder quotientremainder = new QuotientRemainder();
             //quotientremainder.Division();
 
-            //calling SwapOfNumber
+            //calling SwapOfNumber()
             Swap swap = new Swap();
             // swap.SwapOfNumber();
 
             //calling EvenOdd()
             CheckOfNumber checkofnumber = new CheckOfNumber();
-            checkofnumber.EvenOdd();
+            //checkofnumber.EvenOdd();
+
+            //calling CheckingOfAlphabet()
+            AlphabetCheck alphabetcheck = new AlphabetCheck();
+            alphabetcheck.CheckingOfAlphabet();
+
         }
     }
 }
