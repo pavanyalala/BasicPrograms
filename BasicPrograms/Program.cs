@@ -34,7 +34,11 @@ namespace BasicPrograms
 
             //calling SwapOfNumber
             Swap swap = new Swap();
-            swap.SwapOfNumber();
+            // swap.SwapOfNumber();
+
+            //calling EvenOdd()
+            CheckOfNumber checkofnumber = new CheckOfNumber();
+            checkofnumber.EvenOdd();
         }
     }
 }
