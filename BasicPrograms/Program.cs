@@ -10,11 +10,15 @@ namespace BasicPrograms
 
             //Calling FlipCoin()
             HeadTail headtail = new HeadTail();
-           // headtail.FilpCoin();
+            headtail.FilpCoin();
 
             //calling FindLeapYear();
             LeapYear leapyear = new LeapYear();
             leapyear.FindLeapYear();
+
+            //calling PowerCalculaton()
+            PowerOfTwo poweroftwo = new PowerOfTwo();
+            poweroftwo.PowerCalculation();
             
         }
     }
