@@ -10,20 +10,23 @@ namespace BasicPrograms
 
             //Calling FlipCoin()
             HeadTail headtail = new HeadTail();
-            //headtail.FilpCoin();
+            headtail.FilpCoin();
 
             //calling FindLeapYear();
             LeapYear leapyear = new LeapYear();
-            //leapyear.FindLeapYear();
+            leapyear.FindLeapYear();
 
             //calling PowerCalculaton()
             PowerOfTwo poweroftwo = new PowerOfTwo();
-            //poweroftwo.PowerCalculation();
+            poweroftwo.PowerCalculation();
 
             //calling HarmoniNumber()
             Harmonic harmonic = new Harmonic();
             harmonic.HarmonicNumber();
-            
+
+            //calling PrimeFactor()
+            Factors factors = new Factors();
+            factors.PrimeFactor();
         }
     }
 }
