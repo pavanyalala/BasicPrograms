@@ -8,41 +8,45 @@ namespace BasicPrograms
         {
             Console.WriteLine("Welcome to  Basic Programs");
 
-            //Calling FlipCoin()
+            //1.Calling FlipCoin()
             HeadTail headtail = new HeadTail();
-            //headtail.FilpCoin();
+            headtail.FilpCoin();
 
-            //calling FindLeapYear();
+            //2.calling FindLeapYear();
             LeapYear leapyear = new LeapYear();
-            //leapyear.FindLeapYear();
+            leapyear.FindLeapYear();
 
-            //calling PowerCalculaton()
+            //3.calling PowerCalculaton()
             PowerOfTwo poweroftwo = new PowerOfTwo();
-            //poweroftwo.PowerCalculation();
+            poweroftwo.PowerCalculation();
 
-            //calling HarmoniNumber()
+            //4.calling HarmoniNumber()
             Harmonic harmonic = new Harmonic();
-            //harmonic.HarmonicNumber();
+            harmonic.HarmonicNumber();
 
-            //calling PrimeFactor()
+            //5.calling PrimeFactor()
             Factors factors = new Factors();
-           // factors.PrimeFactor();
+            factors.PrimeFactor();
 
-            //calling Division()
+            //6.calling Division()
             QuotientRemainder quotientremainder = new QuotientRemainder();
-            //quotientremainder.Division();
+            quotientremainder.Division();
 
-            //calling SwapOfNumber()
+            //7.calling SwapOfNumber()
             Swap swap = new Swap();
-            // swap.SwapOfNumber();
+            swap.SwapOfNumber();
 
-            //calling EvenOdd()
+            //8.calling EvenOdd()
             CheckOfNumber checkofnumber = new CheckOfNumber();
-            //checkofnumber.EvenOdd();
+            checkofnumber.EvenOdd();
 
-            //calling CheckingOfAlphabet()
+            //9.calling CheckingOfAlphabet()
             AlphabetCheck alphabetcheck = new AlphabetCheck();
             alphabetcheck.CheckingOfAlphabet();
+
+            //10.calling LargeNumber()
+            GreatestNumber greatestnumber = new GreatestNumber();
+            greatestnumber.LargeNumber();
 
         }
     }
