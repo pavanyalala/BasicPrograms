@@ -30,7 +30,11 @@ namespace BasicPrograms
 
             //calling Division()
             QuotientRemainder quotientremainder = new QuotientRemainder();
-            quotientremainder.Division();
+            //quotientremainder.Division();
+
+            //calling SwapOfNumber
+            Swap swap = new Swap();
+            swap.SwapOfNumber();
         }
     }
 }
