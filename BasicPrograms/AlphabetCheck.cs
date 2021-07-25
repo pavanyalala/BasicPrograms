@@ -6,18 +6,18 @@ namespace BasicPrograms
 {
     class AlphabetCheck
     {
+        readonly char value;
+        public AlphabetCheck()
+        {
+            this.value = char.ToLower(value);
+        }
+
         public void CheckingOfAlphabet()
         {
-            Console.WriteLine("Enter a Alphabet to check : ");
-            char alphabet = Convert.ToChar(Console.ReadLine());
-            //checks lower case Alphabets
-            if (alphabet == 'a' || alphabet == 'e' || alphabet == 'i' || alphabet == 'o' || alphabet == 'u')
-                Console.WriteLine(alphabet + " is a Vowel");
-            //checks upper case Alphabets
-            else if (alphabet == 'A' || alphabet == 'E' || alphabet == 'I' || alphabet == 'O' || alphabet == 'U')
-                Console.WriteLine(alphabet + " is a Vowel");
+            if(value =='a' || value == 'e' || value == 'i' || value == 'o' || value == 'u')
+                Console.WriteLine("Entered Alphabet is an Vowel");
             else
-                Console.WriteLine(alphabet + " is a Consonant");
+                Console.WriteLine("Entered Alphabet is an Consonant");
         }
     }
 }

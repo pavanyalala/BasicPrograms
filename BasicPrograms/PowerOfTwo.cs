@@ -10,7 +10,7 @@ namespace BasicPrograms
         {
             Console.WriteLine("Enter the Number to Print 2 table : ");
             int number = Convert.ToInt32(Console.ReadLine());
-            int start = 0;
+            int start = 1;
             while (start <= number)
             {
                 Console.WriteLine("2" + " ^ " + start + " = " + Math.Pow(2, start));
